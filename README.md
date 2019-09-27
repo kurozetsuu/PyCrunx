@@ -1,5 +1,7 @@
 # PyCrunx
 Create your custom wordlist using PyCrunx ! 
+# Requirements
+Python3
 # Installation
 git clone https://github.com/AyoubOurass/PyCrunx
 # Running 
