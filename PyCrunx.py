@@ -1,4 +1,5 @@
 #! python3
+# remember that changing the name doesn't make you the programmer :)
 import random 
 import os 
 from optparse import *
