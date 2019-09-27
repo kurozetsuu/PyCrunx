@@ -64,12 +64,13 @@ else :
             return ''.join(random.choice(characters) for i in range(length))
 
     file = open(options.output+".txt", "w")
+    file.write(options.characters+"\n")
+    file.write(options.characters[::-1]+"\n")
 
     num = 0
     while num < len(options.characters)*options.length :
         num += 1
         file = open(options.output+".txt", "a")
-        file.write(options.characters+"\n")
         file.write(passwords()+"\n")
         file.close()
     lines    = options.length*len(options.characters)
